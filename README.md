@@ -74,7 +74,7 @@ subtitle = ""
 
 ### Repository
 
-- [docker_compose](https://github.com/J-Siu/hugo-theme-sk1)
+- [hugo-theme-sk1](https://github.com/J-Siu/hugo-theme-sk1)
 
 ### Contributors
 
