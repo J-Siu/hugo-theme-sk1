@@ -1,0 +1,12 @@
+name = "sk1"
+license = "MIT"
+licenselink = "https://github.com/J-Siu/hugo-theme-sk1/blob/master/LICENSE"
+description = "Fully functional basic Hugo theme, no css, no javascript."
+homepage = "https://sk1.jsiu.dev/"
+tags = ["blog"]
+features = []
+min_version = "0.65.0"
+
+[author]
+  name = "John Siu"
+  homepage = "https://github.com/J-Siu"
