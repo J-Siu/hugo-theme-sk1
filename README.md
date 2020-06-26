@@ -4,7 +4,7 @@ Hugo Theme - SK1 (Skeleton 1)
 
 Fully functional basic Hugo theme, html only, no css, no javascript.
 
-Intended for learning hugo them or a skeleton to develop full feature theme.
+Intended for learning hugo theme, or as a skeleton to develop full feature theme.
 
 ### Usage
 
