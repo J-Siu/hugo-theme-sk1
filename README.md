@@ -1,14 +1,18 @@
-Hugo Theme - SK1 (Skeleton 1)
-
----
+## Hugo Theme - SK1 (Skeleton 1)
 
 Fully functional basic Hugo theme, html only, no css, no javascript.
 
 Intended for learning hugo theme, or as a skeleton to develop full feature theme.
 
+### Demo
+
+SK2 demo site: https://sk1.jsiu.dev/
+
+Example site content from [hugoBasicExample](https://github.com/gohugoio/hugoBasicExample)
+
 ### Usage
 
-- Git clone
+- Clone
 
     In site directory:
 
@@ -16,13 +20,33 @@ Intended for learning hugo theme, or as a skeleton to develop full feature theme
     git clone https://github.com/J-Siu/hugo-theme-sk1 theme/sk1
     ```
 
-- Git submodule
+- Submodule
 
     In site directory:
 
     ```sh
     git submodule add https://github.com/J-Siu/hugo-theme-sk1 theme/sk1
     ```
+
+### Testing
+
+In `exampleSite`:
+
+```sh
+git clone https://github.com/J-Siu/hugo-theme-sk1 sk1
+cd sk1
+
+# Pull example site.
+git submodule update --recursive --init
+
+cd exampleSite
+hugo server -D --bind :: \
+--disableFastRender \
+--theme sk1 \
+--themesDir ../../ \
+--config config.toml,../config.sk1.toml \
+--verbose
+```
 
 ### Hugo Features Implemented
 
@@ -56,21 +80,16 @@ Intended for learning hugo theme, or as a skeleton to develop full feature theme
 
 ```toml
 baseURL = "https://sk1.jsiu.dev"
-title = ""
+title = "SK1"
 
 enableGitInfo = false
 relativeURLs = true
-theme = "hugo-theme-sk1"
+theme = "sk1"
 
 [Params]
-copyright = ""
-maintype = ""
-subtitle = ""
+maintype = "post"
+subtitle = "A Hugo Theme"
 ```
-
-### Demo
-
-- https://sk1.jsiu.dev/
 
 ### Repository
 
