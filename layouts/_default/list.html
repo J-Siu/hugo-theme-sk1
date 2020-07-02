@@ -1,23 +1,24 @@
 {{define "main"}}
 
-{{if .Site.Params.mainType}}
-	{{.Scratch.Set "type" .Site.Params.mainType}}
-{{else}}
-	{{.Scratch.Set "type" "post"}}
-{{end}}
+<!--Set type-->
+{{.Scratch.Set "type" (default "post" .Site.Params.mainType)}}
 
+<!--Set paginator base on .IsHome and "type"-->
 {{if .IsHome}}
-	{{.Scratch.Set "Paginator" (.Paginate (where .Site.RegularPages "Type" (.Scratch.Get "type")))}}
+{{.Scratch.Set "Paginator" (.Paginate (where .Site.RegularPages "Type" (.Scratch.Get "type")))}}
 {{else}}
-	{{.Scratch.Set "Paginator" .Paginator}}
+{{.Scratch.Set "Paginator" .Paginator}}
 {{end}}
 {{$paginator:=(.Scratch.Get "Paginator")}}
+
+<!--list-->
 <ul>
 	{{range $paginator.Pages}}
 	<li>{{.Date.Format "2006-01-02"}} | <a href="{{.RelPermalink}}">{{.Title}}</a></li>
 	{{end}}
 </ul>
 
+<!--pagination-->
 {{template "_internal/pagination.html" .}}
 
 {{end}}
