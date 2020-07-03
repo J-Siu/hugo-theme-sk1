@@ -4,7 +4,7 @@ homepage    = "https://sk1.jsiu.dev/"
 license     = "MIT"
 licenselink = "https://github.com/J-Siu/hugo-theme-sk1/blob/master/LICENSE"
 min_version = "0.65.0"
-name        = "sk1"
+name        = "SK1"
 tags        = ["blog", "clean", "minimal", "personal", "simple"]
 
 [author]
