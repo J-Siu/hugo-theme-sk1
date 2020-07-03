@@ -1,15 +1,7 @@
 {{define "main"}}
 
-<!--Set type-->
-{{.Scratch.Set "type" (default "post" .Site.Params.mainType)}}
-
-<!--Set paginator base on .IsHome and "type"-->
-{{if .IsHome}}
-{{.Scratch.Set "Paginator" (.Paginate (where .Site.RegularPages "Type" (.Scratch.Get "type")))}}
-{{else}}
-{{.Scratch.Set "Paginator" .Paginator}}
-{{end}}
-{{$paginator:=(.Scratch.Get "Paginator")}}
+<!--$paginator-->
+{{$paginator := .Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections)}}
 
 <!--list-->
 <ul>
