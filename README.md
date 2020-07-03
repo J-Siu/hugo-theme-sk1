@@ -17,13 +17,13 @@ In site directory:
 - Using clone
 
   ```sh
-  git clone https://github.com/J-Siu/hugo-theme-sk3 theme/sk3
+  git clone https://github.com/J-Siu/hugo-theme-sk1 theme/sk1
   ```
 
 - Using submodule
 
   ```sh
-  git submodule add https://github.com/J-Siu/hugo-theme-sk3 theme/sk3
+  git submodule add https://github.com/J-Siu/hugo-theme-sk1 theme/sk1
   ```
 
 - Update submodule
@@ -35,7 +35,7 @@ In site directory:
 ### Testing
 
 ```sh
-git clone https://github.com/J-Siu/hugo-theme-sk3 sk1
+git clone https://github.com/J-Siu/hugo-theme-sk1 sk1
 cd sk1
 
 # Pull example site.
