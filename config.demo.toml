@@ -3,15 +3,5 @@ theme   = "sk1"
 title   = "SK1"
 
 [Params]
-maintype = "post"
+mainSections = "post"
 subtitle = "A Hugo Theme"
-
-[menu]
-	[[menu.main]]
-	identifier = "about"
-	name       = "About"
-	url        = "/about/"
-	weight     = 10
-	[[menu.main]]
-	name = "Tags"
-	url  = "/tags/"
