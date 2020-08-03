@@ -6,9 +6,7 @@ Intended for learning hugo theme structure and functions.
 
 ### Demo
 
-SK1 demo site: https://sk1.jsiu.dev/
-
-SK1 demo site content from [hugoBasicExample](https://github.com/gohugoio/hugoBasicExample)
+SK1 demo site: https://sk1.jsiu.dev/ with content from [hugoBasicExample](https://github.com/gohugoio/hugoBasicExample).
 
 ### Install
 
@@ -92,7 +90,9 @@ subtitle = "A Hugo Theme"
 
 ### Repository
 
-- [hugo-theme-sk1](https://github.com/J-Siu/hugo-theme-sk1)
+- [hugo-theme-sk1](https://github.com/J-Siu/hugo-theme-sk3) Fully functional basic Hugo theme with no css, no javascript.
+- [hugo-theme-sk2](https://github.com/J-Siu/hugo-theme-sk3) Fully functional basic Hugo theme with minimum css.
+- [hugo-theme-sk3](https://github.com/J-Siu/hugo-theme-sk3) Full feature Hugo theme with Google AdSense support.
 
 ### Contributors
 
