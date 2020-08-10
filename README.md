@@ -4,6 +4,10 @@ Fully functional basic Hugo theme with no css, no javascript.
 
 Intended for learning hugo theme structure and functions.
 
+### Walk Through
+
+[Hugo Theme SK1 Walk Through](https://johnsiu.com/blog/hugo-theme-sk1-walkthrough/) - A starting guide for creating Hugo theme.
+
 ### Demo
 
 SK1 demo site: https://sk1.jsiu.dev/ with content from [hugoBasicExample](https://github.com/gohugoio/hugoBasicExample).
