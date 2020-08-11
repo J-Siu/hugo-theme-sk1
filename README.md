@@ -19,13 +19,13 @@ In site directory:
 - Using clone
 
   ```sh
-  git clone https://github.com/J-Siu/hugo-theme-sk1 theme/sk1
+  git clone https://github.com/J-Siu/hugo-theme-sk1 themes/sk1
   ```
 
 - Using submodule
 
   ```sh
-  git submodule add https://github.com/J-Siu/hugo-theme-sk1 theme/sk1
+  git submodule add https://github.com/J-Siu/hugo-theme-sk1 themes/sk1
   ```
 
 - Update submodule
