@@ -15,8 +15,10 @@ Intended for learning hugo theme structure and functions.
 - [Testing](#testing)
 - [Hugo Features Implemented](#hugo-features-implemented)
 - [Site Config](#site-config)
+- [Default Favicon](#default-favicon)
 - [Contributors](#contributors)
 - [Change Log](#change-log)
+- [License](#license)
 
 <!-- /TOC -->
 
@@ -114,6 +116,24 @@ title   = "SK1"
 [Params]
 mainSections = "post"
 subtitle = "A Hugo Theme"
+```
+
+### Default Favicon
+
+SK themes come with default favicon.
+
+Disable default favicon:
+
+```sh
+# At Hugo site root
+touch static/favicon.ico
+```
+
+Override default favicon:
+
+```sh
+# At Hugo site root
+cp <your favicon.ico> static/favicon.ico
 ```
 
 ### Contributors
