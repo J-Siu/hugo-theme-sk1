@@ -1,12 +1,10 @@
 {{define "main"}}
 
 <!--$paginator-->
+{{$paginator := .Paginator}}
 {{if .IsHome}}
-{{.Scratch.Set "Paginator" (.Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections))}}
-{{else}}
-{{.Scratch.Set "Paginator" .Paginator}}
+{{$paginator = .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections)}}
 {{end}}
-{{$paginator:=(.Scratch.Get "Paginator")}}
 
 <!--list-->
 <ul>
