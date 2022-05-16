@@ -1,4 +1,4 @@
-## Hugo Theme - SK1 (Skeleton 1)
+# Hugo Theme - SK1 (Skeleton 1) [![Paypal donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?business=HZF49NM9D35SJ&no_recurring=0&currency_code=CAD)
 
 Fully functional basic Hugo theme with no css, no javascript.
 
@@ -6,6 +6,7 @@ Intended for learning hugo theme structure and functions.
 
 ---
 
+### Table Of Content
 <!-- TOC -->
 
 - [SK Themes](#sk-themes)
