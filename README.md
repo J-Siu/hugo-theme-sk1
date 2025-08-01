@@ -160,6 +160,8 @@ cp <your favicon.ico> static/favicon.ico
 - 1.0.4
   - Fix layouts
   - Fix theme.toml
+- 1.0.5
+  - Fix for Hugo submit
 
 ### License
 

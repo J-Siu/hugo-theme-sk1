@@ -1,9 +1,9 @@
+demosite    = "https://sk1.jsiu.dev"
 description = "Fully functional basic Hugo theme with no css, no javascript."
 features    = []
-homepage    = "https://sk1.jsiu.dev/"
+homepage    = "https://github.com/J-Siu/hugo-theme-sk1"
 license     = "MIT"
 licenselink = "https://github.com/J-Siu/hugo-theme-sk1/blob/master/LICENSE"
-min_version = "0.148.0"
 name        = "SK1"
 tags        = ["blog", "clean", "minimal", "personal", "simple"]
 

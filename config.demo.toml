@@ -2,6 +2,10 @@ baseURL = "https://sk1.jsiu.dev"
 theme   = "sk1"
 title   = "SK1"
 
+[module]
+[module.hugoVersion]
+min = "0.148.0"
+
 [Params]
 mainSections = "post"
 subtitle     = "A Hugo Theme"
