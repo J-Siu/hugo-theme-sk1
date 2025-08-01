@@ -9,17 +9,21 @@ Intended for learning hugo theme structure and functions.
 ### Table Of Content
 <!-- TOC -->
 
-- [SK Themes](#sk-themes)
-- [Walk Through](#walk-through)
-- [Demo](#demo)
-- [Install](#install)
-- [Testing](#testing)
-- [Hugo Features Implemented](#hugo-features-implemented)
-- [Site Config](#site-config)
-- [Default Favicon](#default-favicon)
-- [Contributors](#contributors)
-- [Change Log](#change-log)
-- [License](#license)
+- [Hugo Theme - SK1 (Skeleton 1) ](#hugo-theme---sk1-skeleton-1-)
+    - [Table Of Content](#table-of-content)
+    - [SK Themes](#sk-themes)
+    - [Walk Through](#walk-through)
+    - [Demo](#demo)
+    - [Install](#install)
+    - [Testing](#testing)
+    - [Hugo Features Implemented](#hugo-features-implemented)
+    - [Site Config](#site-config)
+    - [Default Favicon](#default-favicon)
+    - [Contributors](#contributors)
+    - [Change Log](#change-log)
+    - [License](#license)
+
+<!-- /TOC -->e](#license)
 
 <!-- /TOC -->
 
@@ -154,12 +158,14 @@ cp <your favicon.ico> static/favicon.ico
   - Add walk through
   - Change toc start level to 1
   - Update README.md
+- 1.0.3
+  - Update to Hugo v0.148.2
 
 ### License
 
 The MIT License (MIT)
 
-Copyright (c) 2020 John Siu
+Copyright (c) 2025 John Siu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
