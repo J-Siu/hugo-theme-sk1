@@ -157,6 +157,9 @@ cp <your favicon.ico> static/favicon.ico
   - Update README.md
 - 1.0.3
   - Update to Hugo v0.148.2
+- 1.0.4
+  - Fix layouts
+  - Fix theme.toml
 
 ### License
 
