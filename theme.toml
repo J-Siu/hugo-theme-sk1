@@ -1,5 +1,5 @@
 demosite    = "https://sk1.jsiu.dev"
-description = "Fully functional basic Hugo theme with no css, no javascript."
+description = "Demo/Tutorial Hugo theme. Fully functional with no css, no javascript."
 features    = []
 homepage    = "https://github.com/J-Siu/hugo-theme-sk1"
 license     = "MIT"
