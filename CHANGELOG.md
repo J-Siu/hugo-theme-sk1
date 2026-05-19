@@ -20,3 +20,5 @@
   - Fix for Hugo submit
 - 1.0.6
   - Update description
+- 1.0.7
+  - update to Hugo v0.158.0
