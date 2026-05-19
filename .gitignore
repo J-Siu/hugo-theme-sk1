@@ -1,1 +1,7 @@
+# OS
 .DS_Store
+Thumbs.db
+
+# Build artifacts
+.hugo_build.lock
+/public
