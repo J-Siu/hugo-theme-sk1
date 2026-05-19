@@ -1,0 +1,22 @@
+### Change Log
+
+- 1.0.0
+  - Initial Commit
+- 1.0.1
+  - Add images
+  - README.md update
+  - Use site.Params.mainSections
+- 1.0.2
+  - Add default favicon.ico
+  - Add walk through
+  - Change toc start level to 1
+  - Update README.md
+- 1.0.3
+  - Update to Hugo v0.148.2
+- 1.0.4
+  - Fix layouts
+  - Fix theme.toml
+- 1.0.5
+  - Fix for Hugo submit
+- 1.0.6
+  - Update description
