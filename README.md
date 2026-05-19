@@ -74,10 +74,11 @@ git submodule update --recursive --init
 
 cd exampleSite
 hugo server -D --bind :: \
+--config config.toml,../config.demo.toml \
 --disableFastRender \
+--renderToMemory \
 --theme sk1 \
---themesDir ../../ \
---config config.toml,../config.demo.toml
+--themesDir ../../
 ```
 
 ### Hugo Features Implemented
